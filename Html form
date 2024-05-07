@@ -1,0 +1,67 @@
+!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="/actiom.page.php" method="get" autocomplete="on"
+        oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+        <fieldset>
+            <legend>Personal details:</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name"><br>
+            <label for="Email">Email:</label>
+            <input type="email" id="name"><br>
+            <label for="gender">Gender:</label>
+            <input type="radio" id="Male" name="Gender" value="Male">
+            <label for="Male">Male</label>
+            <input type="radio" id="Female" value="Female" name="Gender">
+            <label for="Female">Female</label><br><br>
+            <label>Choose your favorite Web language</label><br>
+            <input type="checkbox" id="html" name="html" value="HTML">
+            <label for="html">HTML</label>
+            <input type="checkbox" id="css" name="css">
+            <label for="css">CSS</label>
+            <input type="checkbox" id="javascript" value="javascript" name="javascript">
+            <label for="javascript">Javascript</label><br><br>
+            <label for="Country">Choose a country:</label>
+              <option value="India">India</option>
+                <option value="australia">Australia</option>
+                <option value="america">America</option>
+                <option value="Japan">Japan</option>
+            </select><br>
+            <label for="">Tell me about yourself:</label><br>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea><br>
+            <label>The datalist Element</label><br>
+            <input list="browsers">
+
+            <datalist id="browsers">
+                <option value="Edge"></option>
+                <option value="Firefox"></option>
+                <option value="Google"></option>
+                <option value="Chrome"></option>
+                <option value="Brave"></option>
+            </datalist><br>
+            <input type="range" id="a" name="a" value="30">100+
+            <input type="number" id="b" name="b" value="30">=
+            <output name="x" for="a b"></output><br>
+            <button type="button" onclick="alert('hello')">Click me!</button><br>
+            <label for="favcolor">Select your favorite color:</label>
+            <input type="color" id="favcolor" name="favcolor"><br>
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday"><br>
+            <label for="quantity">Quantity (between 1 to 5</label>
+            <input type="number" id="quantity" name="quantity" min="1" max="6"><br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </fieldset>
+    </form>
+</body>
+
+</html>
+
