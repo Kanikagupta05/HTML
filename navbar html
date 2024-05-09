@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <STYLE>
+        ul {
+            background-color: #333333;
+            margin: 30px;
+            padding: 20px;
+        }
+
+        .para {
+            display: inline;
+            justify-content: space-evenly;
+            font-size: 20px;
+            margin: 30px;
+            color: white;
+        }
+
+        li a:hover {
+            background-color: rgb(195, 27, 27);
+        }
+
+        li a {
+            color: white;
+        }
+    </STYLE>
+</head>
+
+<body>
+    <ul>
+        <li class="para"><a href="#home">HOME</a></li>
+        <li class="para"><a href="#contact us">CONTACT US</a></li>
+        <li class="para"><a href="#services">SERVICES</a></li>
+        <li class="para"><a href="#about">ABOUT</a></li>
+    </ul>
+</body>
+
+</html>
